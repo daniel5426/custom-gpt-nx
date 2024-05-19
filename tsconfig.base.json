@@ -1,0 +1,91 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@guppy/dashboards/domain": [
+        "libs/dashboards/dashboard-domain/src/index.ts"
+      ],
+      "@guppy/dashboards/features": [
+        "libs/dashboards/dashboard-features/src/index.ts"
+      ],
+      "@guppy/dashboards/openapi": [
+        "libs/dashboards/dashboard-openapi/src/index.ts"
+      ],
+      "@guppy/dashboards/state": [
+        "libs/dashboards/dashboard-state/src/index.ts"
+      ],
+      "@guppy/identities/openapi": [
+        "libs/identities/identities-openapi/src/index.ts"
+      ],
+      "@guppy/identities/userProfile/domain": [
+        "libs/identities/userProfiles/userProfile-domain/src/index.ts"
+      ],
+      "@guppy/identities/userProfile/features": [
+        "libs/identities/userProfiles/userProfile-features/src/index.ts"
+      ],
+      "@guppy/identities/userProfile/state": [
+        "libs/identities/userProfiles/userProfile-state/src/index.ts"
+      ],
+      "@guppy/identities/userProfiles/state": [
+        "libs/identities/userProfiles/userProfiles-state/src/index.ts"
+      ],
+      "@guppy/kodin/challengeDefinitions/domain": [
+        "libs/kodin/challengeDefinitions/challengeDefinition-domain/src/index.ts"
+      ],
+      "@guppy/kodin/challengeDefinitions/features": [
+        "libs/kodin/challengeDefinitions/challengeDefinition-features/src/index.ts"
+      ],
+      "@guppy/kodin/challengeDefinitions/state": [
+        "libs/kodin/challengeDefinitions/challengeDefinition-state/src/index.ts"
+      ],
+      "@guppy/kodin/openapi": ["libs/kodin/kodin-openapi/src/index.ts"],
+      "@guppy/layout/layout-domain": ["libs/layout/layout-domain/src/index.ts"],
+      "@guppy/layout/layout-features": [
+        "libs/layout/layout-features/src/index.ts"
+      ],
+      "@guppy/layout/layout-state": ["libs/layout/layout-state/src/index.ts"],
+      "@guppy/referenceItems/domain": [
+        "libs/referenceItems/referenceItem-domain/src/index.ts"
+      ],
+      "@guppy/referenceItems/features": [
+        "libs/referenceItems/referenceItem-features/src/index.ts"
+      ],
+      "@guppy/referenceItems/openapi": [
+        "libs/referenceItems/referenceItem-openapi/src/index.ts"
+      ],
+      "@guppy/referenceItems/state": [
+        "libs/referenceItems/referenceItem-state/src/index.ts"
+      ],
+      "@guppy/sourceCodeEditors/domain": [
+        "libs/sourceCodeEditors/sourceCodeEditor-domain/src/index.ts"
+      ],
+      "@guppy/sourceCodeEditors/features": [
+        "libs/sourceCodeEditors/sourceCodeEditor-features/src/index.ts"
+      ],
+      "@guppy/sourceCodeEditors/state": [
+        "libs/sourceCodeEditors/sourceCodeEditor-state/src/index.ts"
+      ],
+      "@guppy/tiveriad/admin/domain": [
+        "libs/tiveriad/admin/admin-domain/src/index.ts"
+      ],
+      "@guppy/tiveriad/admin/openapi": [
+        "libs/tiveriad/admin/admin-openapi/src/index.ts"
+      ],
+      "@guppy/tiveriad/ui": ["libs/tiveriad/tiveriad-ui/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

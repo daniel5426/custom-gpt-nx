@@ -1,0 +1,13 @@
+
+<div class="layout-container" [ngClass]="containerClass">
+  <lib-sidebar></lib-sidebar>
+  <div class="layout-content-wrapper">
+    <lib-topbar></lib-topbar>
+    <lib-breadcrumb class="content-breadcrumb"></lib-breadcrumb>
+    <div class="layout-content">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <lib-profile-sidebar></lib-profile-sidebar>
+  <div class="layout-mask"></div>
+</div>
